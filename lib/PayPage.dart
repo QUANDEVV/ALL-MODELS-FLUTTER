@@ -18,6 +18,19 @@ class _PayPageState extends State<PayPage> {
           color: Colors.grey[800],
         ),
       ),
+      body: Column(
+        children: [
+          Expanded(child: Image.asset('assets/1.jpg')),
+         
+          Container(
+            decoration: BoxDecoration(color: Colors.green),
+            child: Text('Total Price'),
+          ),
+        SizedBox(
+          height: 50,
+        )
+        ],
+      ),
     );
   }
 }
